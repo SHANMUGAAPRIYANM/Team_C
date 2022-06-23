@@ -6,10 +6,9 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/program.c
 
 # All test source files
-TEST_SRC = src/program.c\
+TEST_SRC = main.c\
 test/test_program.c\
 unity/unity.c\
 
